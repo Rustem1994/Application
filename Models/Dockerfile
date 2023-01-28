@@ -1,14 +1,5 @@
-FROM openjdk:10-jdk
-
-EXPOSE 8080
-
-ENV GROOVY_VERSION=2.4.15
-
-RUN mkdir "/usr/lib/groovy" && \
-    cd "/tmp" && \
-    wget "http://repo1.maven.org/maven2/com/github/igor-suhorukov/groovy-grape-aether/$GROOVY_VERSION/groovy-grape-aether-$GROOVY_VERSION.jar" && \
-    mv "/tmp/groovy-grape-aether-$GROOVY_VERSION.jar" /usr/lib/groovy/groovy-grape-aether.jar
-
-ENTRYPOINT ["java","-jar","/usr/lib/groovy/groovy-grape-aether.jar"]
-
-CMD ["--help"]
+FROM adoptopenjdk/openjdk11:alpine-jre
+ARG JAR_FILE=target/models-1.0-SNAPSHOT.jar
+WORKDIR C:\Users\Win10Pro\Documents\Application\Application
+COPY $(JAR_FILE) models-1.0-SNAPSHOT.jar
+ENTRYPOINT [“java”,”-jar”,“app.jar”]
