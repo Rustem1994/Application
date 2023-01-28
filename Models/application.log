@@ -1,0 +1,14 @@
+2023-01-28 16:58:07.354  INFO 15632 --- [main] org.ruste.models.Application             : Starting Application using Java 17.0.1 on Пользователь with PID 15632 (C:\Users\Win10Pro\Documents\Application\Application\Models\target\classes started by Win10Pro in C:\Users\Win10Pro\Documents\Application\Application\Models)
+2023-01-28 16:58:07.356  INFO 15632 --- [main] org.ruste.models.Application             : No active profile set, falling back to 1 default profile: "default"
+2023-01-28 16:58:07.853  INFO 15632 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-28 16:58:07.893  INFO 15632 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-01-28 16:58:08.000  INFO 15632 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-28 16:58:08.103  INFO 15632 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-28 16:58:08.229  INFO 15632 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-28 16:58:08.239  INFO 15632 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-01-28 16:58:08.365  INFO 15632 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-28 16:58:08.373  INFO 15632 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-28 16:58:08.446  INFO 15632 --- [main] org.ruste.models.Application             : Started Application in 1.382 seconds (JVM running for 1.602)
+2023-01-28 16:58:08.450  INFO 15632 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-28 16:58:08.452  INFO 15632 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-28 16:58:08.456  INFO 15632 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

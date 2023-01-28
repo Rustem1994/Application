@@ -67,7 +67,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Win10Pro/Documents/Application/Application/Models",
+    "last_opened_file_path": "C:/Users/Win10Pro/Documents/Application/Application/Models/src/main/resources",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -76,6 +76,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Win10Pro\Documents\Application\Application\Models\src\main\resources" />
       <recent name="C:\Users\Win10Pro\Documents\17012023\Models\src\main\resources" />
       <recent name="C:\Users\Win10Pro\Documents\17012023\Models\src\main\java\org\ruste\models" />
     </key>

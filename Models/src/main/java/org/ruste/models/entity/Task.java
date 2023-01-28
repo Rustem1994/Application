@@ -1,20 +1,18 @@
 package org.ruste.models.entity;
 
 import lombok.*;
-import org.hibernate.annotations.DynamicUpdate;
 import org.ruste.models.entity.enums.Status;
 
 
 import javax.persistence.*;
-
+/*
 @Entity
 @Table(name = "tasks")
 @Getter
 @Setter
-@DynamicUpdate
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
+@Builder*/
 public class Task {
 
     @Id

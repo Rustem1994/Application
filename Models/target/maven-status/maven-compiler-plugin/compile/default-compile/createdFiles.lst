@@ -1,0 +1,9 @@
+org\ruste\models\entity\Group.class
+org\ruste\models\entity\enums\Status.class
+org\ruste\models\dto\TaskDto.class
+org\ruste\models\Application.class
+org\ruste\models\entity\Personal.class
+org\ruste\models\entity\Task.class
+org\ruste\models\entity\Word.class
+org\ruste\models\entity\Task$TaskBuilder.class
+org\ruste\models\dto\TaskDto$TaskDtoBuilder.class
